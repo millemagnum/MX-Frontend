@@ -10,3 +10,8 @@ It was a bit challenging not being able to use Bootstrap and frameworks like tha
 I used the theme "gaming" for my solution since it's one of my interests and something I like to do in my sparetime. It made sense for me to use it as a theme for the solution.
 
 I've written some comments in my code to describe what some of it does and I've also added links in the comment, where I've used help from Stackoverflow etc.
+
+
+If you want to see the "live" version, go to http://camillahoeyerolesen.dk/mx/index.php
+
+If you want to check out some other websites or designs I've made, then visit my portfolio - http://camillahoeyerolesen.dk/portfolio/portfolio.php
