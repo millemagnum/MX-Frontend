@@ -1,0 +1,595 @@
+/* CSS Document */
+
+body {
+	font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+.container {
+	margin: 10px;	
+}
+
+/* -------------------------- */
+/* INDEX-PHP */ 
+
+.button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px;	
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	border-radius: 4px;
+	border: none;
+}
+
+.button:hover {
+	background-color: #357c38;
+}
+
+.input-button {
+	background-color: green;
+	color: white;
+	padding: 14px 20px;	
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 1.5px;	
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+#red-button {
+	background-color: red;	
+}
+
+#red-button:hover {
+	background-color: #d10000;	
+}
+
+.button-area {
+	display: block;	
+	/* margin-top: 2%; */
+}
+
+.form-area {
+	/* display: block;*/
+	/* margin-top: 2%; */
+	width: 100%;
+}
+
+/* Inspiration from https://www.w3schools.com/css/css_form.asp */
+.form-area input[type=text], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+}
+
+.form-area input[type=submit] {
+    width: 60%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-weight: bold;
+	font-size: 17px;
+	letter-spacing: 1.5px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-area input[type=submit]:hover {
+    background-color: #357c38;
+}
+
+.form-area textarea {
+    width: 60%;
+    height: 150px;
+	margin: 8px 0;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    resize: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+}
+
+.note-area {
+	width: 100%;
+}
+
+.note-area h3.subject {
+	margin: 0;
+}
+
+.note-area .info-text {
+	margin-bottom: 2%;	
+	margin-top: 2%;
+}
+
+.note-preview-area {
+	vertical-align: top;	
+}
+
+.note-preview-area h3.subject {
+	margin: 0;
+}
+
+.post-it-preview {
+	background: #fff463; 
+	width: 15%;
+	padding: 3%;
+	margin-bottom: 1%;
+	margin-right: 1%;
+	margin-left: 1%;
+	margin-top: 2%;
+	display: inline-block;
+	/* CSS animation - help from https://www.w3schools.com/w3css/w3css_animate.asp*/
+	animation: opac 1.5s; 
+}
+	@keyframes opac {
+		from { opacity:0; } to { opacity:1; }
+} 	
+
+
+/* -------------------------- */
+/* FORM.PHP */
+
+/* Post Its */
+.post-it {
+	background: #fff463; 
+	width: 35%;
+	padding: 5%;
+	margin-bottom: 3%;
+	/* CSS animation - help from https://www.w3schools.com/w3css/w3css_animate.asp*/
+	animation: opac 1.5s; 
+}
+	@keyframes opac {
+		from { opacity:0; } to { opacity:1; }
+} 
+/* } */
+
+
+/* -------------------------- */
+/* TOPAREA.PHP */
+.top-area {
+	width: 100%;	
+}
+
+.top-headline {
+	display: inline-block;	
+	vertical-align: top;
+	width: 50%;
+}
+
+.top-buttons {
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+	margin-top: 1.5%;
+	text-align: right;
+}
+
+#login {
+	margin-left: 1%;	
+}
+
+.top-button {
+	background-color: #4CAF50;
+	color: white;
+	/* padding: 1% 2% 1% 2%; */
+	padding: 14px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	border: none;
+    border-radius: 4px;
+}
+
+.top-button:hover {
+	background-color: #357c38;
+}
+
+#gray-button {
+	background-color: gray;	
+}
+
+#gray-button:hover {
+	background-color: #707070;	
+}
+
+/* -------------------------- */
+/* LOGIN.PHP */
+
+#error {
+	background: #ffc4c4;
+	color: red;	
+	padding: 1%;
+}
+
+.errormessage {
+	color: red;
+	padding: 5px;
+	vertical-align: super;	
+}
+
+
+/* Inspiration from https://www.w3schools.com/css/css_form.asp */
+.login-area input[type=text], select {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+}
+
+.login-area input[type=password], select {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+}
+
+.login-area input[type=submit] {
+    width: 15%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-weight: bold;
+	font-size: 17px;
+	letter-spacing: 1.5px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.login-area input[type=submit]:hover {
+    background-color: #357c38;
+}
+
+#gohome-button {
+	background-color: gray;	
+	width: 15%;
+	padding: 14px 20px;
+}
+
+#gohome-button:hover {
+	background-color: #707070;	
+}
+
+
+/* -------------------------- */
+
+
+/* Responsive CSS from https://www.w3schools.com/css/css_rwd_grid.asp */
+
+/* Smartphones - If the screensize is less than 480px, all columns get 100% width */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 480px) {
+/* Screens between 480px to 769px */
+
+.col-s-1 {
+	width: 8.33%;
+}
+	
+.col-s-2 {
+	width: 16.66%;
+}
+	
+.col-s-3 {
+	width: 25%;
+}
+
+.col-s-4 {
+	width: 33.33%;
+}
+
+.col-s-5 {
+	width: 41.66%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col-s-6 {
+	width: 50%;
+}
+
+.col-s-7 {
+	width: 58.33%;
+}
+
+.col-s-8 {
+	width: 66.66%;
+}
+
+.col-s-9 {
+	width: 75%;
+}
+	
+.col-s-10 {
+	width: 83.33%;
+}
+
+.col-s-11 {
+	width: 91.66%;
+}
+	
+.col-s-12 {
+	width: 100%;
+}	
+	
+	
+}
+
+
+@media only screen and (min-width: 769px) {
+	/* Screens between 769px to 1024px */
+
+.col-m-1 {
+	width: 8.33%;
+}
+	
+.col-m-2 {
+	width: 16.66%;
+}
+	
+.col-m-3 {
+	width: 25%;
+}
+
+.col-m-4 {
+	width: 33.33%;
+}
+
+.col-m-5 {
+	width: 41.66%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col-m-6 {
+	width: 50%;
+}
+
+.col-m-7 {
+	width: 58.33%;
+}
+
+.col-m-8 {
+	width: 66.66%;
+}
+
+.col-m-9 {
+	width: 75%;
+}
+	
+.col-m-10 {
+	width: 83.33%;
+}
+
+.col-m-11 {
+	width: 91.66%;
+}
+	
+.col-m-12 {
+	width: 100%;
+}
+
+}
+
+@media only screen and (min-width: 1024px) {
+    /* Computer - Screensizes 1024px or more */
+.col-1 {
+	width: 8.33%;
+	display: inline-block;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-4 {
+	width: 33.33%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col-5 {
+	width: 40.66%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.66%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+}
+
+
+/* -------------------------- */
+
+/* RESPONSIVE STYLING */
+
+/* Laptop */
+@media all and (max-width: 1024px) {
+
+.post-it {
+	width: 70%;	
+}
+
+.form-area input[type=text], select {
+	width: 70%;	
+}
+
+.form-area textarea {
+	width: 70%;	
+}
+
+.form-area input[type=submit] {
+	width: 70%;	
+}
+
+.post-it-preview {
+	width: 25%;	
+}
+
+/* -------------- */
+
+/* LOGIN.PHP */
+
+.login-area input[type=text], select {
+	width: 30%;	
+}
+
+.login-area input[type=password], select {
+	width: 30%;
+}
+
+.login-area input[type=submit] {
+	width: 30%;
+}
+
+#gohome-button {
+	width: 30%;
+}
+
+}
+
+/* Tablet */
+@media all and (max-width: 769px) {
+		
+.top-headline {
+	width: 100%;	
+}
+ 
+.top-buttons {
+	width: 100%;
+	text-align: left;
+}
+
+.top-button {
+	padding: 10px 15px;	
+}
+
+.post-it {
+	width: 38%;	
+}
+
+.post-it-preview {
+	width: 41%;	
+}
+
+
+}
+
+/* Large phones */
+@media all and (max-width: 600px) {
+
+/* INDEX.PHP */
+.post-it {
+	width: 87%;	
+}
+
+.form-area input[type=text], select {
+	width: 100%;	
+}
+
+.form-area textarea {
+	width: 100%;
+}
+
+.form-area input[type=submit] {
+	width: 100%;
+}
+
+.post-it-preview {
+	width: 90%;	
+}
+
+/* LOGIN.PHP */
+
+.login-area input[type=text], select {
+	width: 100%;	
+}
+
+.login-area input[type=password], select {
+	width: 100%;
+}
+
+.login-area input[type=submit] {
+	width: 100%;
+}
+
+#gohome-button {
+	width: 100%;
+}
+
+
+}
+
+/* Medium phones */
+@media all and (max-width: 376px) {
+
+
+}
+
+/* Small phones */
+@media all and (max-width: 321px) {
+
+
+
+}
+
